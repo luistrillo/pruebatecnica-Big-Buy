@@ -1,0 +1,29 @@
+.seccion {
+  display: flex;
+  gap: 2%;
+  width: 72%;
+  margin: 60px auto;
+  align-items: center;
+}
+.seccion-invert {
+  flex-direction: row-reverse;
+}
+.seccion__img {
+  width: 50%;
+}
+.seccion__desc {
+  width: 50%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.desc__title {
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.desc__text {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=SeccionImpar.css.map */

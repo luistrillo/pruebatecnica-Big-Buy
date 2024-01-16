@@ -1,0 +1,36 @@
+.catalogo {
+  width: 90%;
+  margin: 30px auto;
+}
+.catalogo__title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.catalogo__descripcion {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  width: 80%;
+  margin: 1em auto;
+}
+.catalogo__marcas {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+.catalogo__logos {
+  width: 100%;
+}
+.catalogo__video {
+  width: 800px;
+  margin: 60px auto;
+}
+
+.marcas__bloque {
+  width: 10%;
+}/*# sourceMappingURL=catalogo.css.map */

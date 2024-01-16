@@ -1,0 +1,33 @@
+header {
+  margin-top: 8px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__logo {
+  width: 3.75rem;
+}
+.menu__ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  list-style: none;
+  text-decoration: none;
+}
+.menu__enlaces {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+}
+.menu__li svg {
+  width: 15px;
+  height: 15px;
+}
+.menu__enlaces {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

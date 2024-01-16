@@ -1,0 +1,30 @@
+.seccion{
+    display: flex;
+    gap: 2%;
+    width: 72%;
+    margin: 60px auto;
+    align-items: center;
+    &-invert{
+        flex-direction: row-reverse;
+    }
+    &__img{
+        width: 50%;
+    }
+    &__desc{
+        width: 50%;
+    }
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title{
+        font-size: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+    &__text{
+        font-size: 1.2rem;
+    }
+}
+

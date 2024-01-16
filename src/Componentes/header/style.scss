@@ -1,0 +1,33 @@
+header{
+    margin-top: 8px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    &__logo{
+        width: 3.75rem;
+    }
+    &__ul{
+        display: flex;
+        flex-direction: row;
+        gap:2em;       
+        list-style: none;
+        text-decoration: none;
+    }
+    &__enlaces{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+    }
+    &__li svg{
+        width: 15px;
+        height: 15px;
+    }
+    &__enlaces{
+        text-decoration: none;
+        color: black;
+    }
+}

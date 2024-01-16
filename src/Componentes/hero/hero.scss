@@ -1,0 +1,55 @@
+@import url('../../../reset.scss');
+.hero{
+    width: 100%;
+    height: 450px;
+    background-image: url('../../assets/images/f.elconfidencial.com_original_682_6ac_ad5_6826acad59d1f06e9e12db91ca3395b9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+    &__filtro{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0072ca80;
+        z-index: 1;
+    }
+    &__contenido{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .625rem;
+    }
+    &__hr{
+        width: 5rem;
+        height: .375rem;
+        background-color: var(--amarillo-corpo);
+        border: 1px solid var(--amarillo-corpo);
+        border-radius: .625rem;
+        z-index: 2;
+    }
+    &__titulo{
+        font-size: 3em;
+        text-transform: capitalize;
+        font-weight: 800;
+        color: white;
+    }
+    &__subtitulo{
+        font-size: 1.5em;
+        text-transform: capitalize;
+        font-weight: 800;
+        color: white;
+    }
+}
+.btn-hero{
+    width: auto;
+}

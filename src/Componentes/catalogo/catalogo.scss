@@ -1,0 +1,40 @@
+.catalogo{
+    width: 90%;
+    margin: 30px auto;
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &__descripcion{
+        display: flex;
+        justify-content: center;
+        font-size: 1.25rem;
+        width: 80%;
+        margin: 1em auto;
+    }
+    &__marcas{
+        display: flex;
+        flex-direction: row;
+        gap:10%;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logos{
+        width: 100%;
+    }
+    &__video{
+        width: 800px;
+        margin: 60px auto;
+    }
+   
+
+}
+.marcas{
+    &__bloque{
+        width: 10%;
+    }
+    
+}
