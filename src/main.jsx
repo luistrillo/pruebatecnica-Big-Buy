@@ -34,7 +34,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       url={Ecommerce} 
       clase="seccion"
     ></SeccionImpar>
-    <BotonesBasicos enlace="#packs" texto="+ información" clase="btn btn-amarillo"></BotonesBasicos>
+    <BotonesBasicos enlace="#packs" texto="Más información" clase="btn btn-amarillo"></BotonesBasicos>
     <Catalogo></Catalogo>
     <Card></Card>
   </React.StrictMode>,
